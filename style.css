@@ -1,19 +1,37 @@
-    html {
+html {
     display: table;
     margin: auto;
     background-color: black;
-  }
-  p {
+}
+
+h1{
+    font-family: monospace;
+    color: #2ec7d1;
+    
+    }
+
+h3 {
+text-decoration: underline grey;
+color: black;
+cursor: pointer;
+
+}
+
+h4 {
+font-size: 20px;
+font-family: 'Nosifer', cursive;
+color: rgb(156, 8, 8);
+text-align: center;
+}
+
+p {
 color: #2ec7d1;
 font-size: 20px;
+font-family: 'Quicksand', sans-serif;
+text-align: center;
 
-  }
-  h1{
-font-family: monospace;
-color: #2ec7d1;
+}
 
-  }
-  
 .main-container {
     padding: 10px;
     margin: 10px;
@@ -50,10 +68,10 @@ a {
     height: 30px;
     border-radius: 4px;
     cursor:pointer;
-    font-family: lato;
+    font-family: 'Quicksand', sans-serif;
     text-decoration: none;
     padding: 0pc;
-    ;
+    outline: none;
 }
  
 .border-neon {
@@ -64,7 +82,7 @@ a {
     transition: all .3s ease-in-out;
 }
  
-.border-neon:hover, .border-neon:focus {
+.border-neon:hover{
     -webkit-box-shadow: inset 0px 0px 8px 3px #2ec7d1;
     box-shadow: 0px 0px 10px 3px #2ec7d1, inset 0px 0px 10px 3px #2ec7d1;
     border-color: #fff;
