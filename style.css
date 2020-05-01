@@ -5,9 +5,8 @@ html {
 }
 
 h1{
-    font-family: monospace;
+    font-family: 'Poiret One', cursive;
     color: #2ec7d1;
-    
     }
 
 h3 {
@@ -88,4 +87,5 @@ a {
     border-color: #fff;
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2ec7d1, 0 0 40px #2ec7d1, 0 0 50px #2ec7d1, 0 0 60px #2ec7d1, 0 0 70px #2ec7d1
 }
-  
+
+
